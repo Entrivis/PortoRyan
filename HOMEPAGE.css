@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-weight: 100px;
+}
+
+/* header{
+    background-color: #96B6C5;
+} */
+
+#head{
+    padding: 100px;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#header1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: beige; */
+}
+
+#header2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.isi1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: end;
+}
+
+.textisi1{
+    margin-top: 20px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bagiangaris{
+    /* background-color: aqua; */
+    width: auto;
+    height: 100px;
+}
+
+.garis {
+    width: 90%; 
+    height: 1px; 
+    background-color: rgb(0, 0, 0); 
+    position: relative; 
+    margin: 80px auto; 
+}
+
+
+.garis::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px; 
+    width: 5px; 
+    height: 100%;
+    background-color: transparent; 
+}
+
+.garis::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px; 
+    height: 100%;
+    background-color: transparent; 
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    color: rgb(0, 0, 0);
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 2rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: rgba(24, 193, 255, 0.767);
+}
+
+#txtprojek{
+    /* padding: 0 5% 0 5%; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+
+#projek{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #F1F0E8; */
+}
+
+#IniProjek{
+    padding: 0% 8% 0% 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: end;
+    /* background-color: #EEE0C9; */
+}
+
+#JUDULGAME{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#imgpur{
+    width: 80%;
+    height: auto;
+}
+
+#imghop{
+    width: 120%;
+    height: auto;
+}
+
+#txtprojek1{
+    color: rgb(83, 120, 253);
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 400;
+    /* padding-left: 10px; */
+}
+
+#purgatoryLink{
+    display: flex;
+}
+
+#descGame{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#IniProjek2{
+    padding: 0% 8% 0% 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: #EEE0C9; */
+    display: flex;
+    flex-direction: column;
+}
+
+#imgfig{
+    width: 80%;
+    height: auto;
+}
+
+#imgfig1{
+    width: 30%;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f5f4f4;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 100%;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: #e8e7e7;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
